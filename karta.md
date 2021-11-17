@@ -7,7 +7,8 @@ Jakub Łepek (146470), Mateusz Kaźmierski (143942)
 Istnieje wiele modelów sztucznej inteligencji, które radzą sobie z rozpoznawaniem gestów i mogą posłużyć do stworzenia aplikacji tłumaczącej język migowy. Chcemy pokazać, że gdyby nie rozwój sztucznej inteligencji, otrzymanie podobnych rezultatów byłoby trudniejsze, a dokładność znacznie mniejsza. 
 
 ## Metoda
-Zamierzamy najpierw przefiltrować
+Zamierzamy najpierw przefiltrować obraz i pozbyć się szumu. Znaleźć skórę człowieka i rozróżnić ręce od nóg i głowy. Znaleźć dłonie i ich krawędzie.
+Niektóre gesty są dość statyczne, a inne dynamiczne. W przypadku tych drugich planujemy badać kilka obrazów.
 
 Założenia:
 - człowiek jest ubrany,
